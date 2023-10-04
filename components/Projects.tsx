@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import CardSpotlight from "./CardSpotlight";
 import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
 import Project from "./Project";
@@ -14,8 +15,11 @@ export default function Projects() {
             <SectionHeading>My projects</SectionHeading>
             <div>
                 {projectsData.map((project, index) => (
+
                     <React.Fragment key={index}>
-                        <Project {...project} />
+                        
+                            <Project {...project} />
+                        
                     </React.Fragment>
                 ))}
             </div>

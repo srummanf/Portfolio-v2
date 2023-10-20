@@ -24,13 +24,13 @@ export function Footer() {
           Github
         </motion.a>
         <motion.a
-          href='https://dribbble.com/oliver'
+          href='https://ddsfs'
           target='_blank'
           rel='noreferrer'
           variants={footerItemVariants}
           className='nav-link text-xl text-dark-500'
         >
-          Dribbble
+          Resume
         </motion.a>
         <motion.a
           href='https://www.linkedin.com/in/olivercederborg/'

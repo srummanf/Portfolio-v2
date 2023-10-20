@@ -1,6 +1,6 @@
 'use client'
 
-import MotionDiv from "@/components/motion-div";
+
 import { motion } from 'framer-motion'
 import { IoLogoFigma } from 'react-icons/io5'
 import {

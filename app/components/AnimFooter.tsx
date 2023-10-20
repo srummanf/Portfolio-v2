@@ -41,13 +41,13 @@ export default function AnimFooter() {
                         Github
                     </motion.a>
                     <motion.a
-                        href='https://dribbble.com/oliver'
+                        href='https://ds'
                         target='_blank'
                         rel='noreferrer'
                         variants={footerItemVariants}
                         className='nav-link text-xl text-dark-500'
                     >
-                        Dribbble
+                        Resume
                     </motion.a>
                     <motion.a
                         href='https://www.linkedin.com/in/olivercederborg/'
@@ -64,7 +64,7 @@ export default function AnimFooter() {
                     variants={footerItemVariants}
                     className='font-light text-dark-300 dark:text-dark-400'
                 >
-                    &copy; Oliver Cederborg {new Date().getFullYear()}
+                    &copy; Shaikh Rumman Fardeen {new Date().getFullYear()}
                 </motion.p>
             </motion.footer>
         </footer>

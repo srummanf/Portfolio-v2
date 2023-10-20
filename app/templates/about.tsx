@@ -1,5 +1,6 @@
 'use client'
 
+import MotionDiv from "@/components/motion-div";
 import { motion } from 'framer-motion'
 import { IoLogoFigma } from 'react-icons/io5'
 import {
@@ -9,6 +10,19 @@ import {
   SiReact,
   SiTailwindcss,
   SiTypescript,
+  SiJavascript,
+  SiPython,
+  SiGoland,
+  SiGooglecloud,
+  SiFlask,
+  SiGit,
+  SiWebflow,
+  SiSupabase,
+  SiFirebase,
+  SiMongodb,
+  SiPostgresql,
+  SiPostman
+
 } from 'react-icons/si'
 
 import { AnimatedText } from '@components/animated-text'
@@ -123,13 +137,24 @@ export const About = () => {
               }}
               className='mt-6 flex flex-wrap gap-6 text-dark-300'
             >
-              <IoLogoFigma size={28} title='Figma' />
-              <SiNeovim size={28} title='Neovim' />
+              <IoLogoFigma size={28} title='Figma'/>
               <SiTypescript size={28} title='TypeScript' />
               <SiReact size={28} title='React.js' />
               <SiNextdotjs size={28} title='Next.js' />
               <SiTailwindcss size={28} title='TailwindCSS' />
               <SiPrisma size={28} title='Prisma' />
+              <SiJavascript size={28} title='Javascript' />
+              <SiPython size={28} title='Python' />
+              <SiGoland size={28} title='Golang' />
+              <SiFlask size={28} title='Flask' />
+              <SiGooglecloud size={28} title='Googlecloud' />
+              <SiGit size={28} title='Git' />
+              <SiWebflow size={28} title='Webflow' />
+              <SiSupabase size={28} title='Supabase' />
+              <SiFirebase size={28} title='Firebase' />
+              <SiMongodb size={28} title='MongoDB' />
+              <SiPostgresql size={28} title='Postgresql' />
+              <SiPostman size={28} title='Postman' />
             </motion.div>
           </motion.section>
         </section>
@@ -175,6 +200,7 @@ export const About = () => {
             alt='Portrait of Oliver Cederborg'
             loading='lazy'
           />
+          
         </motion.figure>
       </section>
     </SectionShell>

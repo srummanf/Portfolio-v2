@@ -32,7 +32,7 @@ const epilogue = localFont({
 })
 
 export const metadata: Metadata = {
-  title: 'Oliver Cederborg - Frontend developer',
+  title: 'SRF  - Frontend developer',
   description: `I'm a ${getAge()} year old self-taught designer & frontend developer, focused on user experience, accessibility and modern web technologies.`,
 }
 

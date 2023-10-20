@@ -1,43 +1,61 @@
-import Header from "@/components/Header";
-import "./globals.css";
-import { Inter } from "next/font/google";
-import ActiveSectionContextProvider from "@/context/active-section-context";
-import Footer from "@/components/Footer";
-import ThemeSwitch from "@/components/Theme-switch";
-import ThemeContextProvider from "@/context/theme-context";
-import { Toaster } from "react-hot-toast";
+import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react'
 
-const inter = Inter({ subsets: ["latin"] });
+import localFont from 'next/font/local'
 
-export const metadata = {
-  title: "SRUMMANF | Personal Portfolio",
-  description: "Rumman is a full-stack Web2/Web3 developer with 1 years of experience.",
-};
+import clsx from 'clsx'
+import { getAge } from '@utils/get-age'
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+// import { Footer } from '@components/footer'
+import { MobileNav } from '@components/mobile-navigation'
+import { Navigation } from '@components/navigation'
+
+import './globals.css'
+import { Providers } from '@providers'
+
+import AnimFooter from '@components/AnimFooter'
+
+
+const epilogue = localFont({
+  src: [
+    {
+      path: '../public/assets/Epilogue-VariableFont_wght.ttf',
+      style: 'normal',
+    },
+    {
+      path: '../public/assets/Epilogue-Italic-VariableFont_wght.ttf',
+      style: 'italic',
+    },
+  ],
+  variable: '--font-epilogue',
+  display: 'swap',
+})
+
+export const metadata: Metadata = {
+  title: 'Oliver Cederborg - Frontend developer',
+  description: `I'm a ${getAge()} year old self-taught designer & frontend developer, focused on user experience, accessibility and modern web technologies.`,
+}
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html lang='en' className='scroll-p-32 scroll-smooth' suppressHydrationWarning>
       <body
-        className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
+        className={clsx(
+          'bg-dark-50 text-dark-600 transition-colors duration-300 ease-in-out dark:bg-dark-850 dark:text-dark-50',
+          epilogue.className
+        )}
       >
-        <div className="bg-[#92bc9e] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#3b824f]"></div>
-        <div className="bg-[#e9dfb2] absolute top-[-1rem] -z-10 left-[-11rem] h-[31.25rem] w-[50rem] rounded-full blur-[10rem] sm:w-[68.75rem] md:left-[-33rem] lg:left-[-28rem] xl:left-[-15rem] 2xl:left-[-5rem] dark:bg-[#6e694f]"></div>
+        <Providers>
+          <Navigation />
+          <MobileNav />
+          {children}
+          <Analytics />
+          {/* <Footer /> */}
+        <AnimFooter />
+        </Providers>
 
-        <ThemeContextProvider>
-          <ActiveSectionContextProvider>
-            <Header />
-            {children}
-            <Footer />
-
-            <Toaster position="top-right" />
-            {/* <ThemeSwitch /> */}
-          </ActiveSectionContextProvider>
-        </ThemeContextProvider>
+        <Analytics />
       </body>
     </html>
-  );
+  )
 }

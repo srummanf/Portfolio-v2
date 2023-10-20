@@ -1,23 +1,20 @@
-import StickyCursor from '@/components/stickyCursor';
-import About from "@/components/About";
-import Contact from "@/components/Contact";
-import Experience from "@/components/Experience";
-import Intro from "@/components/Intro";
-import Projects from "@/components/Projects";
-import SectionDivider from "@/components/section-divider";
-import Skills from "@/components/Skills";
+import { ContactForm } from '@components/contact-form'
+import { About } from '@templates/about'
+import { ContactShell } from '@templates/contact-shell'
+import { Hero } from '@templates/hero'
+import { Projects } from '@templates/projects'
+import AnimFooter from '@components/AnimFooter'
 
-
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="flex flex-col items-center px-4">
-      <Intro />
-      <SectionDivider />
-      <About />
+    <main>
+      <Hero />
       <Projects />
-      <Skills />
-      <Experience />
-      <Contact />
+      <About />
+      <ContactShell>
+        <ContactForm />
+      </ContactShell>
+      {/* <AnimFooter /> */}
     </main>
-  );
+  )
 }

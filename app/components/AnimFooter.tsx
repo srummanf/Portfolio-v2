@@ -32,7 +32,7 @@ export default function AnimFooter() {
             >
                 <section className='flex w-1/2 gap-8 md:gap-12 text-xl'>
                     <motion.a
-                        href='https://github.com/olivercederborg'
+                        href='https://github.com/srummanf'
                         target='_blank'
                         rel='noreferrer'
                         variants={footerItemVariants}
@@ -50,7 +50,7 @@ export default function AnimFooter() {
                         Resume
                     </motion.a>
                     <motion.a
-                        href='https://www.linkedin.com/in/olivercederborg/'
+                        href='https://www.linkedin.com/in/srummanf'
                         target='_blank'
                         rel='noreferrer'
                         variants={footerItemVariants}

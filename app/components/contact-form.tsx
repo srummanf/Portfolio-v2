@@ -42,7 +42,7 @@ export function ContactForm() {
         <Input
           {...register('name')}
           name='name'
-          placeholder='Oliver Cederborg'
+          placeholder='Shaikh Rumman Fardeen  '
           className={cn({
             'border-red-500 dark:border-red-400': errors.name?.message,
             'border-green-500 dark:border-green-400': isValid && !errors.name?.message,
@@ -60,7 +60,7 @@ export function ContactForm() {
         <Input
           {...register('email')}
           name='email'
-          placeholder='hey@olivercederborg.com'
+          placeholder='rummanfardeen4567@gmail.com'
           className={cn({
             'border-red-500 dark:border-red-400': errors.email?.message,
             'border-green-500 dark:border-green-400': isValid && !errors.email?.message,
@@ -90,7 +90,7 @@ export function ContactForm() {
         <Textarea
           {...register('message')}
           name='message'
-          placeholder="Hi Oliver, let's work!"
+          placeholder="Hi Rumi, let's work!"
           className={cn({
             'border-red-500 dark:border-red-400': errors.message?.message,
             'border-green-500 dark:border-green-400': isValid && !errors.message?.message,

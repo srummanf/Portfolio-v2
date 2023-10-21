@@ -35,10 +35,10 @@ export const ContactShell = ({ children }: ContactShellProps) => (
         >
           Do not hesitate to contact me through the form here or by direct email on{' '}
           <a
-            href='mailto:hey@olivercederborg.com'
+            href='mailto:rummanfardeen4567@gmail.com'
             className='underline decoration-dark-200 underline-offset-[6px] hover:decoration-dark-300 dark:decoration-dark-500 dark:hover:decoration-dark-400'
           >
-            hey@olivercederborg.com
+            hey@rummanfardeen4567@gmail.com
           </a>{' '}
           regardless of the subject.
         </motion.p>

@@ -1,5 +1,5 @@
 export const getAge = () => {
-  const birthday = new Date(1997, 6, 21)
+  const birthday = new Date(2001, 1, 11)
   const today = new Date()
   const age = today.getFullYear() - birthday.getFullYear()
   const month = today.getMonth() - birthday.getMonth()

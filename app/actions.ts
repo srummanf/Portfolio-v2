@@ -32,7 +32,7 @@ export async function send(formData: ContactFormData) {
     await resend.emails.send(content)
     return {
       ok: true,
-      message: `Thank you for reaching out, ${name}. I will get back to you asap!`,
+      message: `Thank you for reaching out, ${name}. I will get back to you asap!!`,
     }
   } catch (error: unknown) {
     return {

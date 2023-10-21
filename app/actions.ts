@@ -11,8 +11,8 @@ export async function send(formData: ContactFormData) {
   const { name, email, company, message } = contactSchema.parse(formData)
 
   const content: CreateEmailOptions = {
-    from: 'rummanfardeen4567@gmail.com',
-    to: 'rummanfardeen4567@gmail.com',
+    from: 'Acme <onboarding@resend.dev>',
+    to: ['rummanfardeen4567@gmail.com'],
     reply_to: email,
     subject: `New Message From: ${name}`,
     text: message,

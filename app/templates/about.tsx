@@ -1,6 +1,5 @@
 'use client'
 
-
 import { motion } from 'framer-motion'
 import { IoLogoFigma } from 'react-icons/io5'
 import {
@@ -25,11 +24,11 @@ import {
 
 } from 'react-icons/si'
 
+import Image from 'next/image'
 import { AnimatedText } from '@components/animated-text'
 import { SectionHeader } from '@components/section-header'
 import { SectionShell } from '@components/section-shell'
 import { getAge } from '@utils/get-age'
-import Image from 'next/image'
 import { useMounted } from '@hooks/use-mounted'
 import { useTheme } from '@hooks/use-theme'
 import { cn } from '@utils/cn'
@@ -194,11 +193,13 @@ export const About = () => {
                 transition: { duration: 0.5, ease: [0.6, 0.5, 0.5, 0.9] },
               },
             }}
-            fill
+            width={500}
+            height={50}
             quality={95}
-            src='/assets/oliver-cederborg-portrait_black-and-white.jpg'
-            alt='Portrait of Oliver Cederborg'
+            src='/assets/SRF.jpg'
+            alt='Shaikh Rumman Fardeen'
             loading='lazy'
+            style={{ filter: 'grayscale(100%)' }}
           />
           
         </motion.figure>

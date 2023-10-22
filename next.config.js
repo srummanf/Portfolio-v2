@@ -12,9 +12,7 @@ const nextConfig = {
   experimental: {
     serverActions: true,
   },
-  env: {
-    RESEND_API_KEY:'re_N3WLfEEQ_LdBUrJrAiBcWXZEU1fcTyAMo',
-  },
+  
   
 }
 

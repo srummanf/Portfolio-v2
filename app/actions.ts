@@ -4,6 +4,8 @@ import { ContactFormData, contactSchema } from '@side-projects/schemas'
 import { getErrorMessage } from '@utils/get-error-message'
 import { Resend } from 'resend'
 import { CreateEmailOptions } from 'resend/build/src/emails/interfaces'
+import { NextResponse } from 'next/server'
+import type { NextFetchEvent, NextRequest } from 'next/server'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 

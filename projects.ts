@@ -14,9 +14,9 @@ export const projects: Project[] = [
     name: 'Tsks.app',
     area: 'Design and Development',
     image:
-      'https://cdn.dribbble.com/users/1858541/screenshots/15209401/media/5781bdac4f41c65f58ea597cad62c2ce.png',
+      'https://raw.githubusercontent.com/srummanf/AI-Prompter/main/image/README/1698125627388.png?width=200&height=900',
     imageAlt: 'Tsks task manager app by Oliver Cederborg',
-    link: '/project/tsks',
+    link: 'https://github.com/srummanf/AI-Prompter',
     color: '#1D1D26',
   },
   {

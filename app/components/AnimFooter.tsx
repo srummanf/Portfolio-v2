@@ -64,7 +64,12 @@ export default function AnimFooter() {
                     variants={footerItemVariants}
                     className='font-light text-dark-300 dark:text-dark-400'
                 >
-                    &copy; Shaikh Rumman Fardeen {new Date().getFullYear()}
+                    &copy; <a
+                        href="https://read.cv/srummanf"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                    >Shaikh Rumman Fardeen {new Date().getFullYear()}
+                    </a>
                 </motion.p>
             </motion.footer>
         </footer>
@@ -91,7 +96,6 @@ function PixelatedSphere() {
 
 function Birds() {
     const groupRef = useRef();
-
     useFrame(({ clock }: { clock: any }) => {
         if (!groupRef.current) return;
         const elapsedTime = clock.getElapsedTime();

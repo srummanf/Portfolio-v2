@@ -40,6 +40,7 @@ export const ProjectItem = memo(({ project, ...props }: ProjectItemProps) => {
   return (
     <Link
       href={link}
+      target="_blank"
       className={clsx(
         'col-span-12 flex flex-col md:col-span-6 xl:col-span-4',
         props.className && props.className
@@ -76,6 +77,8 @@ export const ProjectItem = memo(({ project, ...props }: ProjectItemProps) => {
                 transition: { duration: 0.5, ease: [0.6, 0.5, 0.5, 0.9] },
               },
             }}
+            width={600}
+            height={60}
             src={image}
             alt={imageAlt}
             className='object-cover'
@@ -90,6 +93,7 @@ export const ProjectItem = memo(({ project, ...props }: ProjectItemProps) => {
           text={name}
           className='mt-3 text-3xl text-dark-400 dark:text-dark-200'
         />
+        
       </motion.article>
     </Link>
   )

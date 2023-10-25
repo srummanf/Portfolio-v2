@@ -90,22 +90,22 @@ export const About = () => {
             />
             <AnimatedText
               as='p'
-              text={`My name is Oliver Cederborg. I am ${getAge()} years old, I live in Copenhagen, Denmark, and I'm a self-taught designer and developer.`}
+              text={`My name is Shaikh Rumman Fardeen. I am ${getAge()} years old, currently residing in the vibrant city of Chennai, studying at VIT Chennai, though I hail from the culturally rich Kolkata.`}
               className='mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
             />
             <AnimatedText
               as='p'
-              text='Digital design has been my main focus for many years, specifically UI/UX, but I have the past years shifted my focus to frontend development, which I have developed a great passion for.'
+              text=' I consider myself a versatile tech enthusiast with a strong foundation in Full Stack development, encompassing NextJS, Web3, and the fascinating world of Machine Learning. My passion for digital design, particularly in the realm of UI/UX, has been a driving force behind my creative journey.'
               className='mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
             />
             <AnimatedText
               as='p'
-              text='I enjoy the constant change in the technologies used in the area and love diving into new frameworks and technologies.'
+              text='I also find solace in sharing my insights and experiences through blog posts on Hashnode during my leisure time. Known for being extremely hardworking, amiable, and a true extrovert, I have an insatiable appetite for both learning and food. '
               className='mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
             />
             <AnimatedText
               as='p'
-              text='Spending time customizing, improving and tinkering with my work environment and tools is something I enjoy a lot, as it is something I use for many hours daily. It allows me to have it exactly as I desire. For instance, I use Neovim as my editor of choice, I have built multiple custom mechanical keyboards, and I use Colemak DHk as my keyboard layout.'
+              text='My ultimate goal is simple: to never stop learning and lead a life marked by simplicity.'
               className='mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
             />
           </motion.article>

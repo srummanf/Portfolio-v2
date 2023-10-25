@@ -15,7 +15,7 @@ export function Footer() {
     >
       <section className='flex w-1/2 gap-8 md:gap-12 text-xl'>
         <motion.a
-          href='https://github.com/olivercederborg'
+          href='https://github.com/srummanf'
           target='_blank'
           rel='noreferrer'
           variants={footerItemVariants}
@@ -33,7 +33,7 @@ export function Footer() {
           Resume
         </motion.a>
         <motion.a
-          href='https://www.linkedin.com/in/olivercederborg/'
+          href='https://www.linkedin.com/in/srummanf/'
           target='_blank'
           rel='noreferrer'
           variants={footerItemVariants}
@@ -47,7 +47,7 @@ export function Footer() {
         variants={footerItemVariants}
         className='font-light text-dark-300 dark:text-dark-400'
       >
-        &copy; Oliver Cederborg {new Date().getFullYear()}
+        &copy; SRF {new Date().getFullYear()}
       </motion.p>
     </motion.footer>
   )

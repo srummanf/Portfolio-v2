@@ -35,6 +35,9 @@ export function Navigation() {
         <AnimatedLink href='/#contact' variants={linkVariants}>
           Contact
         </AnimatedLink>
+        <AnimatedLink href='https://drive.google.com/file/d/11YRZzkaS5hX6XdM9NfEvaDAOonUgxUZE/view?usp=sharing' variants={linkVariants} target="_blank">
+          Resume
+        </AnimatedLink>
 
         <motion.div variants={linkVariants}>
           <ThemeToggleButton />

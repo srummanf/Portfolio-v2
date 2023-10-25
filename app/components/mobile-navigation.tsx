@@ -140,6 +140,9 @@ export function MobileNav() {
             <MotionLink href='/#contact' variants={linkVariants} className='mobile-nav-link'>
               Contact
             </MotionLink>
+            <MotionLink href='https://drive.google.com/file/d/11YRZzkaS5hX6XdM9NfEvaDAOonUgxUZE/view?usp=sharing' variants={linkVariants} className='mobile-nav-link'>
+              Resume
+            </MotionLink>
             <motion.div variants={linkVariants}>
               <ThemeToggleButton />
             </motion.div>

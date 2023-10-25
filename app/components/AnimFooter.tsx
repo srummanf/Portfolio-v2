@@ -28,7 +28,7 @@ export default function AnimFooter() {
                 initial='hidden'
                 whileInView='visible'
                 viewport={{ once: true }}
-                className='container flex flex-col justify-center gap-10 py-16 md:flex-row md:justify-between'
+                className='container flex flex-col justify-center py-16 md:flex-row md:justify-between'
             >
                 <section className='flex w-1/2 gap-8 md:gap-12 text-xl'>
                     <motion.a
@@ -41,13 +41,13 @@ export default function AnimFooter() {
                         Github
                     </motion.a>
                     <motion.a
-                        href='https://ds'
+                        href='https://read.cv/srummanf'
                         target='_blank'
                         rel='noreferrer'
                         variants={footerItemVariants}
                         className='nav-link text-xl text-dark-500'
                     >
-                        Resume
+                        ReadCV
                     </motion.a>
                     <motion.a
                         href='https://www.linkedin.com/in/srummanf'
@@ -68,9 +68,20 @@ export default function AnimFooter() {
                         href="https://read.cv/srummanf"
                         rel="noopener noreferrer"
                         target="_blank"
-                    >Shaikh Rumman Fardeen {new Date().getFullYear()}
-                    </a>
+                    >Shaikh Rumman Fardeen {new Date().getFullYear()}</a>
                 </motion.p>
+                <div className="flex font-light items-center text-dark-300 dark:text-dark-400">
+                    <p className='mr-[4px]'>Ana Dammi 🇵🇸</p>
+                    <div className='Palestine flex gap-[3px]'>
+                        <div className="w-[12px] h-[12px] rounded-full bg-[#970000]"></div>
+                    <div className="w-[12px] h-[12px] rounded-full bg-[#007137]"></div>
+                    <div className="w-[12px] h-[12px] rounded-full bg-[#2f2f2f] dark:bg-white"></div>
+                    </div>
+                    
+                </div>
+                
+                
+
             </motion.footer>
         </footer>
     );

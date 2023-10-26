@@ -49,7 +49,7 @@ export const Hero = () => {
               text="I'm a full stack developer with a passion for great design and user experiences. Pursuing my Engineering degree in Computer Science. "
               
             />
-            <ExternalLink>Alhumdullilah</ExternalLink>
+            <ExternalLink href='https://srummanf.github.io/Mumin---HTML-CSS-JS/'>Alhumdullilah</ExternalLink>
              
           </article>
         </AnimatePresence>

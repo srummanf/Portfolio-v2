@@ -1,10 +1,11 @@
 'use client'
 
 import { AnimatePresence, motion } from 'framer-motion'
-
 import { AnimatedLetters, AnimatedText } from '@components/animated-text'
 import { HeroIllustration } from '@components/hero-illustration'
 import { MotionLinkButton } from '@components/link-button'
+
+import ExternalLink from '@/components/ExternalLinkWithArrow';
 
 export const Hero = () => {
   return (
@@ -45,8 +46,11 @@ export const Hero = () => {
             <AnimatedText
               as='p'
               className='mt-10 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
-              text="I'm a full stack developer with a passion for great design and user experiences. Pursuing my Engineering degree in Computer Science. Alhumdullilah!"
+              text="I'm a full stack developer with a passion for great design and user experiences. Pursuing my Engineering degree in Computer Science. "
+              
             />
+            <ExternalLink>Alhumdullilah</ExternalLink>
+             
           </article>
         </AnimatePresence>
 
@@ -64,7 +68,9 @@ export const Hero = () => {
           }}
           className='mt-8 inline-block md:mt-16'
         >
-          Explore my projects
+        
+            Explore my projects
+          
         </MotionLinkButton>
 
         <HeroIllustration />

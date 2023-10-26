@@ -32,6 +32,8 @@ import { getAge } from '@utils/get-age'
 import { useMounted } from '@hooks/use-mounted'
 import { useTheme } from '@hooks/use-theme'
 import { cn } from '@utils/cn'
+import ExternalLink from '@/components/ExternalLinkWithArrow';
+
 const MotionImage = motion(Image)
 
 export const About = () => {

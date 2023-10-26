@@ -64,24 +64,24 @@ export default function AnimFooter() {
                     variants={footerItemVariants}
                     className='font-light text-dark-300 dark:text-dark-400'
                 >
-                    &copy; <a
-                        href="https://read.cv/srummanf"
+                    <a
+                        href="https://twitter.com/srummanf"
                         rel="noopener noreferrer"
                         target="_blank"
                     >Shaikh Rumman Fardeen {new Date().getFullYear()}</a>
-                    
+
                 </motion.p>
                 <motion.div className="flex font-light items-center text-dark-300 dark:text-dark-400" variants={footerItemVariants}>
                     <motion.p className='mr-[4px]' variants={footerItemVariants}>Ana Dammi 🇵🇸</motion.p>
                     <div className='Palestine flex gap-[3px]'>
                         <div className="w-[12px] h-[12px] rounded-full bg-[#970000]"></div>
-                    <div className="w-[12px] h-[12px] rounded-full bg-[#007137]"></div>
-                    <div className="w-[12px] h-[12px] rounded-full bg-[#2f2f2f] dark:bg-white"></div>
+                        <div className="w-[12px] h-[12px] rounded-full bg-[#007137]"></div>
+                        <div className="w-[12px] h-[12px] rounded-full bg-[#2f2f2f] dark:bg-white"></div>
                     </div>
-                    
+
                 </motion.div>
-                
-                
+
+
 
             </motion.footer>
         </footer>

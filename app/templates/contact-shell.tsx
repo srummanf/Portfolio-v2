@@ -38,7 +38,7 @@ export const ContactShell = ({ children }: ContactShellProps) => (
             href='mailto:rummanfardeen4567@gmail.com'
             className='underline decoration-dark-200 underline-offset-[6px] hover:decoration-dark-300 dark:decoration-dark-500 dark:hover:decoration-dark-400'
           >
-            hey@rummanfardeen4567@gmail.com
+            rummanfardeen4567@gmail.com
           </a>{' '}
           regardless of the subject.
         </motion.p>

@@ -45,7 +45,7 @@ export const Hero = () => {
             <AnimatedText
               as='p'
               className='mt-10 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
-              text="I'm a full-time frontend developer with a passion for great design and user experiences."
+              text="I'm a full stack developer with a passion for great design and user experiences. Pursuing my Engineering degree in Computer Science. Alhumdullilah!"
             />
           </article>
         </AnimatePresence>

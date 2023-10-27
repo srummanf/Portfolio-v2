@@ -21,7 +21,7 @@ export function SideProjectsShell({ children }: { children: ReactNode }) {
           <AnimatedLetters
             key='title'
             as='h1'
-            text='Side Projects'
+            text='Certifications'
             className='text-4xl font-medium lg:text-5xl'
             textVariants={{
               hidden: { transition: { staggerChildren: 0.015 } },
@@ -40,7 +40,7 @@ export function SideProjectsShell({ children }: { children: ReactNode }) {
             key='text'
             as='p'
             className='mt-6 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200 md:w-3/5'
-            text='This is where I keep my side projects, usually the projects through which I learn a certain tech stack or my team projects.'
+            text='Here you will find all the certifications I have obtained throughout my career.'
           />
         </AnimatePresence>
       </motion.article>

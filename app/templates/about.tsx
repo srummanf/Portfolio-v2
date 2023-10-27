@@ -23,11 +23,13 @@ import {
   SiPostman
 
 } from 'react-icons/si'
+import { VscArrowRight } from 'react-icons/vsc'
 
 import Image from 'next/image'
 import { AnimatedText } from '@components/animated-text'
 import { SectionHeader } from '@components/section-header'
 import { SectionShell } from '@components/section-shell'
+import { MotionLinkButton } from '@components/link-button'
 import { getAge } from '@utils/get-age'
 import { useMounted } from '@hooks/use-mounted'
 import { useTheme } from '@hooks/use-theme'
@@ -44,7 +46,7 @@ export const About = () => {
   return (
     <SectionShell id='about'>
       <SectionHeader heading='About' />
-
+      
       <motion.section
         variants={{
           visible: { transition: { staggerChildren: 0.25 } },
@@ -73,6 +75,7 @@ export const About = () => {
         {/*   More about me */}
         {/* </MotionLinkButton> */}
       </motion.section>
+      
 
       <section className='relative mt-24 flex grid-cols-12 flex-col-reverse gap-y-10 md:ml-24 md:grid md:gap-x-8 lg:gap-x-16'>
         <section className='col-span-full md:col-span-6 xl:col-span-8'>

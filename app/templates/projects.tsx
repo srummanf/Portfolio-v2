@@ -60,7 +60,8 @@ export const Projects = () => {
         viewport={{ once: true }}
         className='mt-24 flex'
       >
-        <MotionLinkButton
+        <div className="flex flex-col gap-y-10">
+          <MotionLinkButton
           href='/side-projects'
           motionProps={{
             variants: {
@@ -80,6 +81,28 @@ export const Projects = () => {
         >
           Side projects
         </MotionLinkButton>
+        <MotionLinkButton
+          href='/certificates'
+          motionProps={{
+            variants: {
+              hidden: { opacity: 0, x: -50 },
+              visible: {
+                opacity: 1,
+                x: 0,
+                transition: { ease: 'circOut', duration: 0.5 },
+              },
+            },
+          }}
+          className='group flex w-14 items-end gap-3 self-start text-2xl font-light text-dark-400 transition-colors duration-300 ease-in-out hover:text-dark-500 dark:text-dark-200 md:w-24 md:text-3xl'
+          style={{ writingMode: 'vertical-rl' }}
+          icon={
+            <VscArrowRight className='rotate-[135deg] text-3xl text-dark-200 transition duration-300 ease-in-out group-hover:-translate-x-1 group-hover:translate-y-1 group-hover:text-dark-300 dark:text-dark-400 md:text-4xl' />
+          }
+        >
+          Certificates
+        </MotionLinkButton>
+        </div>
+        
         <motion.section
           variants={{
             visible: { transition: { staggerChildren: 0.25 } },

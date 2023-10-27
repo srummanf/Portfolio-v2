@@ -14,6 +14,30 @@ export type Sideproject = {
   stars?: number
 }
 
+export type Certificate = {
+  id: number
+  name: string
+  area: string
+  url: string
+  image: string
+  imageAlt: string
+  color?: string
+}
+
+export async function getCertificates() {
+  const Certificates: Certificate[] = [
+    {
+      id:0,
+      name: "Certificates",
+      area: "Certificates",
+      url: "https://drive.google.com/drive/folders/1M6tPZJ9Qf9t4V8jz4qzXk5Z1WQ5QqQ8R?usp=sharing",
+      image: "https://raw.githubusercontent.com/srummanf/Portfolio/main/public/certificate.png",
+      imageAlt: "Certificates",
+      color: "#4D4E52",
+    }]
+}
+
+
 export async function getProjects() {
   const sideProjects: Sideproject[] = [
     {
@@ -38,7 +62,7 @@ export async function getProjects() {
       color: '#23393D',
     },
     {
-      id: 2 ,
+      id: 2,
       name: 'Avocado Analytics',
       area: 'Flask Dash',
       image: 'https://raw.githubusercontent.com/srummanf/Avocado-Analysis/main/image/README/1698215121285.png',

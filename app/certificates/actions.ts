@@ -61,7 +61,16 @@ export async function getCertificates() {
       color: "#4D4E52",
     },
     {
-      id: 4,
+      id: 5,
+      name: "Build Wireframes and Low-Fidelity Prototypes",
+      area: " Coursera - Google",
+      url: "https://www.coursera.org/account/accomplishments/verify/6KXDSHEP6PB3",
+      image: "/assets/UI3.png",
+      imageAlt: "Build Wireframes and Low-Fidelity Prototypes",
+      color: "#4D4E52",
+    },
+    {
+      id: 6,
       name: "Introduction to Public Speaking",
       area: " Coursera - University of Washington",
       url: "https://www.coursera.org/account/accomplishments/verify/KAZYUSKQL7FL",

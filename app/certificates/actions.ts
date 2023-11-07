@@ -44,6 +44,15 @@ export async function getCertificates() {
     },
     {
       id: 3,
+      name: "Advanced Learning Algorithms",
+      area: " Coursera - Standford University Online, DeepLearning.AI",
+      url: "https://www.coursera.org/account/accomplishments/verify/MJ8KQSUA5556",
+      image: "/assets/ML2.png",
+      imageAlt: "Supervised Machine Learning: Regression and Classification",
+      color: "#4D4E52",
+    },
+    {
+      id: 4,
       name: "Foundations of User Experience (UX) Design",
       area: " Coursera - Google",
       url: "https://www.coursera.org/account/accomplishments/verify/NT5B5MZA7QMQ",
@@ -52,7 +61,7 @@ export async function getCertificates() {
       color: "#4D4E52",
     },
     {
-      id: 4,
+      id: 5,
       name: "Start the UX Design Process: Empathize, Define, and Ideate",
       area: " Coursera - Google",
       url: "https://www.coursera.org/account/accomplishments/verify/XPJ45X86N3TN",
@@ -61,7 +70,7 @@ export async function getCertificates() {
       color: "#4D4E52",
     },
     {
-      id: 5,
+      id: 6,
       name: "Build Wireframes and Low-Fidelity Prototypes",
       area: " Coursera - Google",
       url: "https://www.coursera.org/account/accomplishments/verify/6KXDSHEP6PB3",
@@ -70,7 +79,7 @@ export async function getCertificates() {
       color: "#4D4E52",
     },
     {
-      id: 6,
+      id: 7,
       name: "Introduction to Public Speaking",
       area: " Coursera - University of Washington",
       url: "https://www.coursera.org/account/accomplishments/verify/KAZYUSKQL7FL",

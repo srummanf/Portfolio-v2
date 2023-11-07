@@ -80,6 +80,15 @@ export async function getCertificates() {
     },
     {
       id: 7,
+      name: "Conduct UX Research and Test Early Concepts",
+      area: " Coursera - Google",
+      url: "https://www.coursera.org/account/accomplishments/verify/34PM4Z4PB3V4",
+      image: "/assets/UI4.png",
+      imageAlt: "Build Wireframes and Low-Fidelity Prototypes",
+      color: "#4D4E52",
+    },
+    {
+      id: 8,
       name: "Introduction to Public Speaking",
       area: " Coursera - University of Washington",
       url: "https://www.coursera.org/account/accomplishments/verify/KAZYUSKQL7FL",
@@ -87,6 +96,7 @@ export async function getCertificates() {
       imageAlt: "Introduction to Public Speaking",
       color: "#4D4E52",
     },
+
   ];
   return Certificates;
 }

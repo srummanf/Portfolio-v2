@@ -44,33 +44,26 @@ export async function getProjects() {
       id: 0,
       name: 'VITC MUN 2023 Official Website',
       area: 'React Tailwind',
-      image: 'https://raw.githubusercontent.com/VITCMUN-2023/VITCMUN23/main/VITCMUN.png?token=GHSAT0AAAAAACHIXR73L6JC54PBPUMLQCBUZJYVLSQ',
+      image: '/assets/PS.png',
       imageAlt: 'VITC MUN 2023 Official Website by Rumman, Ojas and Shaad',
       repo: '',
       url: 'https://vitcmun23.vercel.app/',
       color: '#4D4E52',
     },
-    {
-      id: 1,
-      name: 'De School Mate',
-      area: 'HTML CSS JS',
-      image:
-        'https://user-images.githubusercontent.com/95229740/220142233-f9d98419-d3a0-446f-9ab0-b75ab6c48711.png',
-      imageAlt: 'Poimandres Neovim color scheme by Oliver Cederborg',
-      repo: '',
-      url: 'https://github.com/SpandanM110/De-SchoolMate/',
-      color: '#23393D',
-    },
-    {
-      id: 2,
-      name: 'Avocado Analytics',
-      area: 'Flask Dash',
-      image: 'https://raw.githubusercontent.com/srummanf/Avocado-Analysis/main/image/README/1698215121285.png',
-      imageAlt: 'Avocado Analytics',
-      repo: '',
-      url: 'https://github.com/srummanf/Avocado-Analysis',
-      color: '#292E36',
-    },
+    // Uncomment the following lines to add more projects
+
+    // {
+    //   id: 1,
+    //   name: 'De School Mate',
+    //   area: 'HTML CSS JS',
+    //   image:
+    //     '/assets/PS.png',
+    //   imageAlt: 'Poimandres Neovim color scheme by Oliver Cederborg',
+    //   repo: '',
+    //   url: 'https://github.com/SpandanM110/De-SchoolMate/',
+    //   color: '#23393D',
+    // },
+    
   ]
 
   const projects = await Promise.allSettled(

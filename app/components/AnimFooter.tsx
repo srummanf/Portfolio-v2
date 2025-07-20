@@ -41,15 +41,6 @@ export default function AnimFooter() {
                         Github
                     </motion.a>
                     <motion.a
-                        href='https://read.cv/srummanf'
-                        target='_blank'
-                        rel='noreferrer'
-                        variants={footerItemVariants}
-                        className='nav-link text-xl text-dark-500'
-                    >
-                        ReadCV
-                    </motion.a>
-                    <motion.a
                         href='https://www.linkedin.com/in/srummanf'
                         target='_blank'
                         rel='noreferrer'
@@ -71,7 +62,7 @@ export default function AnimFooter() {
                     >Shaikh Rumman Fardeen {new Date().getFullYear()}</a>
 
                 </motion.p>
-                <motion.div className="flex font-light items-center text-dark-300 dark:text-dark-400" variants={footerItemVariants}>
+                {/* <motion.div className="flex font-light items-center text-dark-300 dark:text-dark-400" variants={footerItemVariants}>
                     <motion.p className='mr-[4px]' variants={footerItemVariants}>Ana Dammi 🇵🇸</motion.p>
                     <div className='Palestine flex gap-[3px]'>
                         <div className="w-[12px] h-[12px] rounded-full bg-[#970000]"></div>
@@ -79,7 +70,7 @@ export default function AnimFooter() {
                         <div className="w-[12px] h-[12px] rounded-full bg-[#2f2f2f] dark:bg-white"></div>
                     </div>
 
-                </motion.div>
+                </motion.div> */}
 
 
 

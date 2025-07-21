@@ -1,4 +1,4 @@
-![1698290446689](image/README/1698290446689.png)
+![1753111889765](image/README/1753111889765.png)
 
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Deployment**: [Vercel](https://vercel.com)
@@ -103,3 +103,21 @@ Please ensure code formatting and linting are consistent.
 # Once Again:
 
 ***Disclaimer** : This is not an original project of mine. I discovered it some time ago on GitHub while learning web development and made several customizations to understand how things work. Unfortunately, I can no longer trace the original author—so I do not claim ownership of the project, only the modifications I've made.*
+
+---
+
+# A Great and Minimalistic Black Theme Based Professional Portfolio Template
+
+---
+
+
+<table>
+  <tr>
+    <td align="left" width="50%">
+      <strong>By</strong><br />
+      Shaikh Rumman Fardeen<br />
+      <a href="https://github.com/srummanf">GitHub: @srummanf</a><br />
+      <a href="mailto:rummanfardeen4567@gmail.com">rummanfardeen4567@gmail.com</a>
+    </td>
+  </tr>
+</table>

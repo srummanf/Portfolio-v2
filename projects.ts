@@ -29,16 +29,6 @@ export const projects: Project[] = [
     link: 'https://github.com/srummanf/Devhub',
     color: '#1E1D26',
   },
-   {
-    id: 2,
-    name: 'poietes',
-    area: 'NextJS Tailwind Canvas',
-    image:
-      'https://github.com/srummanf/poietes/raw/main/image/README/1753115976353.png',
-    imageAlt: 'poietes',
-    link: 'https://github.com/srummanf/poietes',
-    color: '#1E1D26',
-  },
 
   // Uncomment the following lines to add more projects
   

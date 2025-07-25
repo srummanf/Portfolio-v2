@@ -140,7 +140,7 @@ export function MobileNav() {
             <MotionLink href='/#contact' variants={linkVariants} className='mobile-nav-link'>
               Contact
             </MotionLink>
-            <MotionLink href='https://drive.google.com/file/d/11YRZzkaS5hX6XdM9NfEvaDAOonUgxUZE/view?usp=sharing' variants={linkVariants} className='mobile-nav-link'>
+            <MotionLink href='https://www.linkedin.com/in/srummanf/overlay/1725116905782/single-media-viewer?type=DOCUMENT&profileId=ACoAADdHOYoBnHIo9d6lNpw6CQWIxcSfDNFea1c&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSsXxZStOTke4Ica2Q4FV6A%3D%3D' variants={linkVariants} className='mobile-nav-link'>
               Resume
             </MotionLink>
             <motion.div variants={linkVariants}>

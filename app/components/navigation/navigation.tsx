@@ -35,7 +35,7 @@ export function Navigation() {
         <AnimatedLink href='/#contact' variants={linkVariants}>
           Contact
         </AnimatedLink>
-        <AnimatedLink href='https://drive.google.com/file/d/11YRZzkaS5hX6XdM9NfEvaDAOonUgxUZE/view?usp=sharing' variants={linkVariants} target="_blank">
+        <AnimatedLink href='https://www.linkedin.com/in/srummanf/overlay/1725116905782/single-media-viewer?type=DOCUMENT&profileId=ACoAADdHOYoBnHIo9d6lNpw6CQWIxcSfDNFea1c&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BSsXxZStOTke4Ica2Q4FV6A%3D%3D' variants={linkVariants} target="_blank">
           Resume
         </AnimatedLink>
 

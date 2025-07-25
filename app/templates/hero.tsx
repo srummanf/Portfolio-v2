@@ -46,7 +46,7 @@ export const Hero = () => {
             <AnimatedText
               as='p'
               className='mt-10 text-lg font-light leading-relaxed text-dark-400 dark:text-dark-200'
-              text="I'm a full stack developer with a passion for great design and user experiences. Pursuing my Engineering degree in Computer Science. "
+              text="I'm a full-stack developer driven by a passion for clean design and seamless user experiences."
               
             />
             <ExternalLink href='https://www.linkedin.com/in/srummanf/'>Hover Me</ExternalLink>

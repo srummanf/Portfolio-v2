@@ -33,7 +33,7 @@ const epilogue = localFont({
 
 export const metadata: Metadata = {
   title: 'Shaikh Rumman Fardeen',
-  description: `I'm a ${getAge()} year old self-taught designer & full stack developer, focused on user experience, accessibility and modern web technologies. Currently entering in the realm of Web3 and Machine Learning.`,
+  description: `Shaikh Rumma Fardeen`,
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
